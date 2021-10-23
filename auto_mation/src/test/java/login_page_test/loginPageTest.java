@@ -15,6 +15,7 @@ import pages.login_page;
  */
 public class loginPageTest extends HelperClass {
 
+	//Login to Website with correct credentials --TC_001
 	@Test
 	public void TC_001() throws InterruptedException {
 		try {
@@ -49,7 +50,8 @@ public class loginPageTest extends HelperClass {
 		}
 
 	}
-
+	
+	//Login to Website with incorrect credentials --TC_002
 	@Test
 	public void TC_002() throws InterruptedException {
 		try {
@@ -84,7 +86,8 @@ public class loginPageTest extends HelperClass {
 			}
 		}	
 	}
-
+	
+	//Login to Website with Correct USERNAME but incorrect PASSWORD --TC_003
 	@Test
 	public void TC_003() throws InterruptedException {
 		try {
@@ -120,6 +123,7 @@ public class loginPageTest extends HelperClass {
 		}	
 	}
 
+	//Login to Website with incorrect USERNAME but correct PASSWORD --TC_004
 	@Test
 	public void TC_004() throws InterruptedException {
 		try {
@@ -155,6 +159,7 @@ public class loginPageTest extends HelperClass {
 		}	
 	}
 
+	//Login to Website with locked out user's credentials --TC_005
 	@Test
 	public void TC_005() throws InterruptedException {
 		try {
@@ -192,6 +197,7 @@ public class loginPageTest extends HelperClass {
 
 	}
 
+	//Login button press without credentials --TC_006
 	@Test
 	public void TC_006() throws InterruptedException {
 		try {
