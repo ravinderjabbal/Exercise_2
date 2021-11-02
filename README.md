@@ -1,5 +1,5 @@
 # Website login page automaiton --> Exercise -2
-Automation of 6 of the test cases that  written for provided previous exercise using Selenium WebDriver with Java  and a web automation framework of your choice. 
+Scenario Provided :: Automation of 6 of the test cases that  written for provided exercise using Selenium WebDriver with Java  and a web automation framework of your choice. 
 # Problem :
 Test cases to validate all possible scenarios related to the Login feature. For this test we will utilize a website created by Swag Labs meant to facilitate QA assignments. The website can be located here: https://www.saucedemo.com 
 
